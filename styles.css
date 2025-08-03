@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #080808;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 150px) center;
+}
+
+.container{
+    padding: 10px 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 140px;
+    margin-left: 2em;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.header-text{
+    margin-top: 10%;
+    font-size: 30px;
+    margin-left: 2em;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span{
+    color: #ff004f;
+}
+
+/* About Section */
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.about-col-2 p{
+  font-size: 15px;
+  line-height: 1.8;        
+  margin-bottom: 20px;     
+  color: #ababab;
+  max-width: 700px; 
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #ff004f;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: width 0.3s ease;
+}
+
+.tab-links.active::after{
+    width: 50%;
+}
+
+.tab-content ul li{
+    list-style: none;
+    margin-bottom: 10px 0;
+    padding-bottom: 0.5em;
+}
+
+.tab-content ul li span{
+    font-weight: 600;
+    color: #ff004f;
+    font-size: 14px;
+}
+
+.tab-content{
+    display: none;
+}
+
+.tab-content.active-tab{
+    display: block;
+}
+
+    .section {
+    padding: 20px 10px;
+    color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    color: #ff004f;
+    margin-bottom: 40px;
+}
+
+/*Educational Background Section*/
+.education .edu-item {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.btn-download {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #ff004f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #e60047;
+}
+
+
+/*Interest*/
+.interest-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.interest-list li {
+    background: #1c1c1c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+
+/* Projects Section */
+#projects {
+    padding: 80px 20px;
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.projects-list div {
+    background: #1c1c1c;
+    padding: 40px;
+    border-radius: 15px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.projects-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.projects-list div h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.projects-list div a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.projects-list div a.btn-view {
+    background: #ff004f;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.projects-list div:hover {
+    background: #e60047;
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(255, 0, 79, 0.3);
+}
+
+/* Contact Section */
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    background: #2c2c2c;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: #ff004f;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #e60047;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-container p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.footer-container .social-icons {
+  margin-top: 10px;
+}
+
+.footer-container .social-icons a {
+  color: #ff004f;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-container .social-icons a:hover {
+  color: #fff;
+}
+
+/* CSS for samll screen */
+@media only screen and (max-width: 768px) {
+    .header-text h1 {
+        font-size: 40px;
+    }
+    
+    #header {
+        height: auto;
+        background-image: url(images/background-mobile.png);
+        text-align: center;
+    }
+
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    
+    .tab-titles {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tab-links {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .projects-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-form {
+        width: 90%;
+        margin: auto;
+    }
+}

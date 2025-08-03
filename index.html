@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Personal Portfolio Website - Hackathon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3102360428.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#educational-background">Educational Background</a></li>
+                    <li><a href="#interest">Interest</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi!, I'm <span>Erinosho</span><br> Grace from Nigeria</h1>
+        </div>
+    </header>
+
+    <!-- About Section-->
+    <section id="about" >
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/grace 1.png" alt="About Me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate web developer with a keen interest in creating user-friendly and visually appealing websites. I have experience in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills.</p>
+                    <p>Currently, I am pursuing a B.Sc. in Computer Science / Education at Tai Solarin University of Education, where I am honing my skills in both programming and educational methodologies.</p>
+                    <p>In my free time, I enjoy exploring new design trends, working on personal projects, and contributing to open-source communities. I believe in the power of technology to make a positive impact in the world.</p>
+                    <div class="tab-titles">
+                      <p class="tab-links active">Skills</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/app interfaces using Figma.</li>
+                                <li><span>Web Development</span><br>Buildibg websites with HTML & CSS</li>
+                                <li><span>JavaScript</span><br>Creating interactive web pages.</li>
+                                <li><span>Responsive Design</span><br>Ensuring websites work on all devices.</li>
+                                <li><span>Version Control</span><br>Using Git for code management.</li> 
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Educational Background Section -->
+<section id="educational-background" class="section">
+  <div class="container">
+    <h1 class="section-title">Educational Background</h1>
+    <div class="education">
+      <div class="edu-item">
+        <h3>Tai Solarin University of Education</h3>
+        <p>B.Sc. in Computer Science / Education<br>2022 - 2025</p>
+        <a href="Erinosho-Frontend-developer- Resume.pdf" download class="btn-download">Download CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Interest Section -->
+<section id="interest" class="section">
+  <div class="container">
+    <h1 class="section-title">Interests</h1>
+    <ul class="interest-list">
+      <li>UX/UI Design</li>
+      <li>Web Development</li>
+      <li>Animation</li>
+      <li>Cybersecurity</li>
+    </ul>
+  </div>
+</section>
+
+<!--Projects Section -->
+<section id="projects" class="section">
+    <div class="container">
+        <h1 class="section-title">Projects</h1>
+        <div class="projects-list">
+            <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h3>Horticulturist Landing Page</h3>
+            <p>Designed a responsive landing page using Figma.</p>
+            <a href="https://www.figma.com/proto/fNy8dlgm1pDjtNZkKEibqg/Landing-Page---Horticulture?node-id=0-1&t=pXCQOXVyEtOTmEvU-1" class="btn-view">View Project</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h3>photography Agency UI</h3>
+            <p>Created a sleek UI concept for a photography agency site as part of a design challenge.</p>
+            <a href="https://www.figma.com/proto/RdcE5O6p5HuIujVgayr4Ck/Photography?node-id=1-2&p=f&t=Cp99Atcxmnas16ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" class="btn-view">View Project</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h3>Business Card</h3>
+            <p>Developed a personal business card to showcase my skills and contacts.</p>
+            <a href="https://ephemeral-clafoutis-e1d5ca.netlify.app/" class="btn-view">View Project</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact-me" class="section">
+  <div class="container">
+    <h1 class="section-title">Contact Me</h1>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <p>&copy; 2025 Grace | Web Developer</p>
+    <div class="social-icons">
+      <a href="https://github.com/simbi-lee" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/grace-e-679b61230/" target="_blank">LinkedIn</a>
+      <a href="mailto:graceerinosho@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
