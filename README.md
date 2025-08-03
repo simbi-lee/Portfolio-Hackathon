@@ -8,7 +8,7 @@ This is my personal portfolio website built as part of the **PLP Academy Hackath
 
 ## 🌐 Live Demo
 
-🔗 [Visit My Portfolio](https://grace-my-portfolio.netlify.app/)
+🔗 [Visit My Portfolio](https://portfolio-hackathon-0dcbb7.netlify.app/)
 
 ---
 
@@ -39,10 +39,10 @@ This is my personal portfolio website built as part of the **PLP Academy Hackath
 
 ## 🛠️ Built With
 
-- HTML5 – Semantic and accessible structure
-- CSS3 – Custom responsive layout and animations
-- Font Awesome – Iconography
-- Google Fonts (Poppins) – Typography
+- **HTML5** – Semantic and accessible structure
+- **CSS3** – Custom responsive layout and animations
+- **Font Awesome** – Iconography
+- **Google Fonts** (Poppins) – Typography
 
 ---
 
@@ -60,8 +60,8 @@ _B.Sc. in Computer Science / Education (2022 - 2025)_
 | Project | Description | Link |
 |--------|-------------|------|
 | **Horticulturist Landing Page** | Designed a responsive landing page using Figma | [View Project](https://www.figma.com/proto/fNy8dlgm1pDjtNZkKEibqg/Landing-Page---Horticulture?node-id=0-1&t=pXCQOXVyEtOTmEvU-1) |
-| **Modeling Agency UI** | UI concept for a photography agency site | (https://www.figma.com/proto/RdcE5O6p5HuIujVgayr4Ck/Photography?node-id=1-2&p=f&t=Cp99Atcxmnas16ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2) |
-| **Portfolio Website** | Built this personal business card site | [Visit Live Site](https://ephemeral-clafoutis-e1d5ca.netlify.app/) |
+| **Modeling Agency UI** | UI concept for a photography agency site | [View Project](https://www.figma.com/proto/RdcE5O6p5HuIujVgayr4Ck/Photography?node-id=1-2&p=f&t=Cp99Atcxmnas16ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2) |
+| **Business Card** | Built this personal business card site | [Visit Live Site](https://ephemeral-clafoutis-e1d5ca.netlify.app/) |
 
 ---
 
@@ -75,9 +75,6 @@ _B.Sc. in Computer Science / Education (2022 - 2025)_
 
 ## 🧾 How to Run Locally
 
-```bash
-git clone https://github.com/simbi-lee/Portfolio-Hackathon
-
 ## 📜 License
 
 This project is free to use for **educational and personal branding purposes**.
@@ -89,3 +86,6 @@ If you wish to reuse or adapt parts of this project (design, code, or layout) fo
 - **Obtain permission** by contacting me at [graceerinosho@gmail.com](mailto:graceerinosho@gmail.com)
 
 Unauthorized use for commercial or promotional purposes is not permitted.
+
+```bash
+git clone https://github.com/simbi-lee/Portfolio-Hackathon
