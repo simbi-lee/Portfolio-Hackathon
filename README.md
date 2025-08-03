@@ -73,7 +73,6 @@ _B.Sc. in Computer Science / Education (2022 - 2025)_
 
 ---
 
-## 🧾 How to Run Locally
 
 ## 📜 License
 
@@ -86,6 +85,8 @@ If you wish to reuse or adapt parts of this project (design, code, or layout) fo
 - **Obtain permission** by contacting me at [graceerinosho@gmail.com](mailto:graceerinosho@gmail.com)
 
 Unauthorized use for commercial or promotional purposes is not permitted.
+
+## 🧾 How to Run Locally
 
 ```bash
 git clone https://github.com/simbi-lee/Portfolio-Hackathon
